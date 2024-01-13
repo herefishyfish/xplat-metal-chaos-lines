@@ -8,6 +8,7 @@ registerElement('Canvas', () => Canvas);
   template: `
     <GridLayout>
       <Canvas (ready)="onCanvasReady($event)"></Canvas>
+      <Button>NativeScript is dope</Button>
     </GridLayout>
   `,
 })
@@ -34,7 +35,7 @@ export class AppComponent {
     return shader;
   }
 
-  initWebGL(canvas: Canvas) {
+  initWebGL(canvas) {
     const gl = canvas.getContext("webgl");
 
     if (!gl) {
