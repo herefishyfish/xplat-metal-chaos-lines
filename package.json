@@ -13,6 +13,7 @@
     "@angular/platform-browser-dynamic": "~16.2.0",
     "@angular/router": "~16.2.0",
     "@nativescript/angular": "^16.0.0",
+    "@nativescript/canvas": "2.0.0-alpha.43",
     "@nativescript/core": "~8.6.0",
     "@nativescript/theme": "~3.0.2",
     "rxjs": "~7.8.0",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~16.2.0",
     "@angular/compiler-cli": "~16.2.0",
+    "@nativescript/android": "8.6.2",
     "@nativescript/types": "~8.6.0",
     "@nativescript/webpack": "~5.0.18",
     "@ngtools/webpack": "~16.2.0",
