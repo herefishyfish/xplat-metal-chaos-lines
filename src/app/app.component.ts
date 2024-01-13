@@ -99,7 +99,7 @@ export class AppComponent {
       }
 
       void main() {
-      vec2 uv = (gl_FragCoord.xy / u_resolution) - 2.0;
+      vec2 uv = (gl_FragCoord.xy / u_resolution) * 0.75 - 2.0;
       uv.x *= u_resolution.x / u_resolution.y;
 
       vec3 lineColor1 = vec3(1.0, 0.0, 0.5);
