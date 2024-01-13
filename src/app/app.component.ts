@@ -34,7 +34,7 @@ export class AppComponent {
     return shader;
   }
 
-  initWebGL(canvas) {
+  initWebGL(canvas: Canvas) {
     const gl = canvas.getContext("webgl");
 
     if (!gl) {
